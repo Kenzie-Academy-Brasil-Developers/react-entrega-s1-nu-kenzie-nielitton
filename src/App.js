@@ -6,10 +6,7 @@ import TotalMoney from "./components/TotalMoney";
 import List from "./components/List";
 
 function App() {
-  const [listTransictions, setListTransictions] = useState([
-    { description: "Salário recebido", type: "Entrada", value: 2500 },
-    { description: "Conta de luz", type: "Saída", value: -150 },
-  ]);
+  const [listTransictions, setListTransictions] = useState([]);
 
   return (
     <div className="App">
@@ -25,7 +22,7 @@ function App() {
           </div>
           <section className="sectionList">
             <span className="resumoList">Resumo financeiro</span>
-            <List listTransiction={listTransictions} />
+            <List listTransiction={listTransictions} setListTransiction={setListTransictions} />
           </section>
         </main>
       </header>
