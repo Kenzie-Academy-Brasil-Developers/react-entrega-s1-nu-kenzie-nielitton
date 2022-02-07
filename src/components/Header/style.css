@@ -1,0 +1,23 @@
+.headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 88px;
+    background-color: rgba(248, 249, 250, 1);
+    box-shadow: 2px 2px 12px  rgba(0, 0, 0, 0.096);
+}
+.buttonInicio {
+    cursor: pointer;
+    width: 64px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgba(233, 236, 239, 1);
+    border: none;
+    color: rgba(134, 142, 150, 1);
+    font-family: 'Nunito', sans-serif;
+}
+.buttonInicio:hover {
+    transition: 0.5s;
+    background-color: rgba(253, 55, 126, 1);
+    color: white;
+}

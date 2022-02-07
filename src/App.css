@@ -1,0 +1,39 @@
+.App-body {
+  background-color: #ffffff;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.resumoList {
+  color: rgba(33, 37, 41, 1);
+  font-size: 16px;
+  color: rgba(33, 37, 41, 1);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+.sectionList {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 5px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .dashboard-content {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionList {
+    margin: 36px 40px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .dashboard-content {
+    justify-content:  center;
+  }
+
+}

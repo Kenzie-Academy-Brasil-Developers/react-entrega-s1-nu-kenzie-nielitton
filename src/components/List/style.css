@@ -1,0 +1,27 @@
+.sectionCards {
+  margin-bottom: 25px;
+  display: flex;
+  min-width: 375px;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sectionCards::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sectionCards {
+    margin-top: 20px;
+    max-height: 448px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: block;
+  }
+  .sectionCards::-webkit-scrollbar {
+    display: none;
+  }
+  
+}
