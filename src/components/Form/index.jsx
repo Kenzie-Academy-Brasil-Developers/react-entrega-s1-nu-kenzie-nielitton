@@ -13,7 +13,6 @@ function Form({ listTransictions, setListTransictions }) {
       value:
         valorType === "Entrada" ? Number(valueValor) : Number(valueValor * -1),
     };
-    console.log(listTransictions);
     setListTransictions([...listTransictions, newTansition]);
   }
 

@@ -1,0 +1,73 @@
+.sectionStart {
+    background-color: rgba(33, 37, 41, 1);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.paragraphContainer {
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    width: 347px;
+}
+.containerStart {
+    display: flex;
+    flex-direction: column;
+}
+.containerStart button{
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin-top: 28px;
+    width: 241px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(253, 55, 126, 1);
+}
+
+.spanStart {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.startImageContainer figure img {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    transform: translateY(0px);
+    transform: translateX(0px);
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+figure {
+    margin: 0px;
+}
+@media screen and (min-width: 768px){ 
+    .sectionStart {
+        flex-direction: row;
+    }
+    .startImageContainer figure img{
+        width: 450px;
+        height: 450px;
+        margin-left: 20px;
+    }
+}

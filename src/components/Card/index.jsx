@@ -1,22 +1,14 @@
 import "./style.css";
 import { FaTrash } from "react-icons/fa";
 
-function Card({ listTransiction, setListTransiction, transaction }) {
-  function Trash(itemToremove) {
-    const filtered = listTransiction.filter((item) => {
-      return item !== itemToremove;
-    });
-    console.log(listTransiction);
-    setListTransiction(filtered);
-  }
-
+function Card({ transaction, trash }) {
   return (
     <section className="sectionCards">
       <div className="cardTransation">
         <div className="descTransation">
           <p className="descTransationParagraph">{transaction.description}</p>
           <span className="valueTransaction">R$: {transaction.value},00</span>
-          <button className="buttonTrash" onClick={() => Trash()}>
+          <button className="buttonTrash" onClick={() => trash(transaction)}>
             <FaTrash />
           </button>
         </div>
