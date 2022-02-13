@@ -18,19 +18,44 @@
   flex-direction: column;
   margin: 20px 5px;
 }
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filterContainer span {
+  margin-bottom: 10px;
+}
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 
 @media screen and (min-width: 855px) {
   .dashboard-content {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
   }
   .sectionList {
     margin: 36px 40px;
+  }
+  .filterContainer {
+    flex-direction: row;
+  }
+  .resumoList {
+    margin-right: 10px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .dashboard-content {
     justify-content: center;
+  }
+  .resumoList {
+    margin-right: 150px;
   }
 }

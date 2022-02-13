@@ -1,0 +1,39 @@
+.containerFilters .filterEntered{
+    cursor: pointer;
+    margin-right: 16px;
+    width: 69px;
+    height: 40px;
+    background-color: rgba(233, 236, 239, 1);
+    color: rgba(134, 142, 150, 1);
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+.containerFilters .filterLeave{
+    cursor: pointer;
+    margin-right: 16px;
+    width: 69px;
+    height: 40px;
+    background-color: rgba(233, 236, 239, 1);
+    color: rgba(134, 142, 150, 1);
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+.containerFilters .filterTodos{
+    cursor: pointer;
+    margin-right: 16px;
+    width: 69px;
+    height: 40px;
+    background-color: rgba(253, 55, 126, 1);
+    color: white;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}

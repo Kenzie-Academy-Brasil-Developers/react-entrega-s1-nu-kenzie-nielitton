@@ -1,6 +1,8 @@
+import './style.css'
+
 function Filters({ showTransictionFiltered }) {
   return (
-    <div>
+    <div className="containerFilters">
       <button className="filterTodos" onClick={() => showTransictionFiltered()}>
         Todos
       </button>

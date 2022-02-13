@@ -40,8 +40,11 @@ function App() {
                 <TotalMoney listTransiction={listTransictions} />
               </div>
               <section className="sectionList">
-                <span className="resumoList">Resumo financeiro</span>
-                <Filters showTransictionFiltered={showTransictionFiltered} />
+                <div className="filterContainer">
+                  <span className="resumoList">Resumo financeiro</span>
+                  <Filters showTransictionFiltered={showTransictionFiltered} />
+                </div>
+
                 <List
                   listTransiction={
                     transictionsFiltered.length > 0
